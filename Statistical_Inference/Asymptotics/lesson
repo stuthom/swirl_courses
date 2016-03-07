@@ -163,9 +163,9 @@
 
 - Class: mult_question
   Output: How do you feel about the election?
-  AnswerChoices: confident; unsure; I'll pull out;  Perseverance, that's the answer; 
-  CorrectAnswer: confident
-  AnswerTests: omnitest(correctVal='confident')
+  AnswerChoices: Confident; Unsure; I'll pull out; 
+  CorrectAnswer: Confident
+  AnswerTests: omnitest(correctVal='Confident')
   Hint: With 95% confidence, between .5 and .7 of the voters support you. You look like a winner to me!
 
 - Class: text
